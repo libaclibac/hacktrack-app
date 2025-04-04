@@ -39,7 +39,7 @@ Pour installer et lancer le projet, suivez ces étapes :
 - **`public/`** : Contient les fichiers statiques comme `vite.svg`.
 
 - **`src/components/`** : Contient les composants React réutilisables.
-  - `AuthContainer.jsx` : Conteneur pour l'authentification.
+  - `AuthContainer.jsx` : Conteneur pour l'authentification et le profile.
   - `Button.jsx` : Composant de bouton.
   - `Card.jsx` : Composant de carte pour afficher des informations structurées.
   - `Form.jsx` : Composant de formulaire.
