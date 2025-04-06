@@ -50,6 +50,7 @@ const HackathonDetails = () => {
         <p><strong>Date de début :</strong> {new Date(hackathon.startDate).toLocaleString()}</p>
         <p><strong>Date de fin :</strong> {new Date(hackathon.endDate).toLocaleString()}</p>
         <p><strong>Thème :</strong> {hackathon.theme}</p>
+        <p><strong>Description :</strong> {hackathon.description}</p>
         <h3 className="mt-4">Équipes inscrites</h3>
         <ul className="list-group">
           {hackathon.teams.map((team) => (
